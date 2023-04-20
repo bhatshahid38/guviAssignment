@@ -1,5 +1,5 @@
 import React from "react";
-import GuviLogo from "../assets/logoofGuvi.png";
+import GuviLogo from "../../assets/logoofGuvi.png";
 export default function Switch() {
   return (
     <div

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import Sucess from "./Success";
 import { useNavigate } from "react-router-dom";
 
-function Signup() {
+function SignUp() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -117,4 +116,4 @@ function Signup() {
     </div>
   );
 }
-export default Signup;
+export default SignUp;

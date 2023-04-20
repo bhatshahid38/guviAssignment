@@ -1,9 +1,8 @@
 import "./App.css";
 import Login from "./components/Login";
-import Signup from "./components/Signup";
+import Signup from "./components/SignUp";
 import Switch from "./components/Switch";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import GuviImg from "./assets/guvi.webp";
 import { useState } from "react";
 import Profile from "./components/Profile";
 function App() {
